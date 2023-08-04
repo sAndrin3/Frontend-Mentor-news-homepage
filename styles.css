@@ -1,0 +1,135 @@
+@font-face{
+    font-family: inter-Font;
+    src: url(/assets/fonts/static/Inter-Regular.ttf);
+}
+
+body{
+    margin: 0;
+    font-size: 15px;
+    font-family: Inter-Font;
+}
+
+.close-btn{
+    display: none;
+}
+
+main{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.menu{
+    display: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin: 10px;
+}
+
+.flex-hero{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.flex-hero img{
+    max-width: 100%;
+}
+
+.hero-sidenav{
+    margin-left: 20px;
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+    padding: 15px;
+    line-height: 24px;
+}
+
+.hero-sidenav p{
+    color: grey;
+    border-bottom: 0.5px solid grey;
+    padding-bottom: 10px;
+}
+
+.hero-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.flex-p{
+    width: 70%;
+    margin-top: -40px;
+}
+
+.flex-heading{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 14px 25px;
+    width: 200px;
+    color: #fff;
+    background-color: hsl(5, 85%, 63%);
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+.hero-sidenav h3{
+   color: hsl(35, 77%, 62%); 
+   font-size: 30px;
+}
+
+section{
+    display: flex;
+    margin-top: 20px;
+}
+
+section img{
+    width: 100px;
+    /* margin-right: 10px; */
+}
+
+section .card{
+    display: flex;
+    width: 400px;
+    gap: 30px;
+    align-items: center;
+    
+}
+
+.number{
+    color: grey;
+    opacity: 0.5;
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 10px;
+    
+}
+
+.section-text h4{
+    margin: 0;
+    line-height: 30px;
+    
+}
+
+.lock{
+    overflow: hidden;
+}
+
+.backdrop{
+    display: flex; 
+}
